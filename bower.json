@@ -1,0 +1,26 @@
+{
+  "name": "mddanishyusuf-github-io",
+  "description": "Personal webiste",
+  "main": "index.js",
+  "authors": [
+    "mddanishyusuf"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "perosnal",
+    "website"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "angular-ui-router": "^1.0.3"
+  }
+}

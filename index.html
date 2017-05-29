@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mohd Danish Yusuf | Front-end Developer</title>
+	<base href="/">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+</head>
+	<body ng-app="mdyusuf" ng-controller="homeController">
+
+	<div class="container">
+		<div class="row main-box">
+			<div class="col-md-12">
+				<div class="card-header row">
+				<div class="col-md-2 col-xs-6">
+					<img src="/lib/img/mddanishyusuf.jpg" width="100%">
+				</div>
+				<div class="col-md-9 card-content">
+				<div class="row">
+					<div class="col-md-12">						
+					<h2><span>Mohd Danish Yusuf</span></h2>
+					<div class="links">
+						<ul>
+							<li><a href="https://github.com/mddanishyusuf" target="_blank"><i class="fa fa-github"> github</i></a></li>
+							<li><a href="https://www.facebook.com/facebkpuzz/" target="_blank"><i class="fa fa-facebook-official"></i> facebook</a></li>
+							<li><a href="https://www.linkedin.com/in/mddanishyusuf/" target="_blank"><i class="fa fa-linkedin-square"></i> linkedin</a></li>
+							<li><a href="https://iamnewbie.com/" target="_blank"><i class="fa fa-rss"></i> blog</a></li>
+							<li><a href="mailto:mddanishyusuf@gmail.com"><i class="fa fa-envelope"></i> mail</a></li>
+						</ul>
+					</div>
+					</div>
+					<div class="col-md-12 col-xs-12">						
+					<p>Hey, I'm Mohd Danish. I'm a Front-end developer from India. I am a fan of JavaScript Frameworks AngularJS, React, d3, Vue, Backbonejs, threejs. I'm also interested to explore APIs of top website as github, facebook, twitter, google and build something new with these APIs. <a href="http://githubsearch.com/">githubsearch.com</a> ( Github APIs + AngularJS ), <a href="https://www.fbpuzz.com/">fbpuzz.com</a> ( Facebook Graph APIs + Codeigniter + AngularJS ). Nowadays I am getting started with hapi.js ( Node framework ) to design REST APIs.</p>
+					<p></p>
+					</div>
+					<div class="col-md-12 col-xs-12">
+					<hr>
+					<button class="ibutton" type="submit" ui-sref="workExperience">Work Experience</button>
+					<button class="ibutton" type="submit" ui-sref="openSourceProject">Open Source Projects</button>
+					<button class="ibutton" type="submit" ui-sref="education">Education</button>
+					<button class="ibutton" type="submit" ui-sref="achievements">Achievements</button>
+					<button class="ibutton" type="submit" ui-sref="interests">Interests</button>
+					</div>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="second-layer" id="layer">
+	<button class="minimizeButton" type="submit" ng-click="minimizeThis()">-</button>
+		<ui-view></ui-view>
+	</div>
+
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/lib/js/application-routes.js"></script>
+	<script src="/lib/js/appfunction.js"></script>
+<script type="text/javascript" src="//platform.linkedin.com/in.js">
+    api_key: '819wpymdvy5mpo'
+    authorize: true
+    onLoad: onLinkedInLoad
+</script>
+
+<script type="text/javascript">
+    
+    // Setup an event listener to make an API call once auth is complete
+    function onLinkedInLoad() {
+        IN.Event.on(IN, "auth", getProfileData);
+    }
+
+    // Handle the successful return from the API call
+    function onSuccess(data) {
+        console.log(data);
+    }
+
+    // Handle an error response from the API call
+    function onError(error) {
+        console.log(error);
+    }
+
+    // Use the API call wrapper to request the member's basic profile data
+    function getProfileData() {
+        IN.API.Raw("/people/~").result(onSuccess).error(onError);
+    }
+
+</script>
+</body>
+</html>

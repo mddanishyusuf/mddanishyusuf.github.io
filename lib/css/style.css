@@ -1,0 +1,82 @@
+body{
+	background-color: #f7f7f2;
+	font-family: 'Rokkitt', serif;
+}
+.main-box{
+	margin-top: 100px;
+}
+.card-content h2{
+	padding: 0px;
+    margin: 0px 0px 10px 0px;
+    line-height: 47px;
+    font-size: 36px;
+    color: #6d6969;
+}
+.card-content h2 span{
+	border-bottom: 4px solid #6c60cc;
+}
+.card-content p{
+	font-size: 20px;
+}
+.card-content p a{
+	color: #6d6969;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 2px solid #6c60cc
+}
+.links ul{
+	margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.links ul li{
+	float:left;
+	padding: 0px 10px 0px 0px;
+}
+.links ul li a{
+	color: #000;
+	text-decoration: none;
+    font-size: 16px;
+}
+.fa-github{
+	color:#24292e;
+}
+.fa-facebook-official{
+	color: #3b5998
+}
+.fa-linkedin-square{
+	color: #0077b5
+}
+.fa-rss{
+	color: #ec8132
+}
+.fa-envelope{
+	color: #da3b32
+}
+.ibutton{
+	background-color: transparent;
+	border-radius: none;
+	border: 2px solid #6d6969;
+	font-size: 16px;
+	margin: 10px 10px 10px 0px;
+	padding: 3px 20px
+}
+.second-layer{
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 500px) {
+	.card-content h2{
+	    font-size: 20px;
+    	line-height: 30px;
+	}
+	.main-box{
+		margin-top: 20px;
+	}
+}
