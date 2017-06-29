@@ -6,52 +6,68 @@
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/lib/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/technology-icons/dist/styles/technology-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
 </head>
 	<body ng-app="mdyusuf" ng-controller="homeController">
-
-	<div class="container">
-		<div class="row main-box">
+	<div class="container-fluid header-fluid">
+		<div class="container">
+		<div class="row">
 			<div class="col-md-12">
-				<div class="card-header row">
-				<div class="col-md-2 col-xs-6">
-					<img src="/lib/img/mddanishyusuf.jpg" width="100%">
-				</div>
-				<div class="col-md-9 card-content">
-				<div class="row">
-					<div class="col-md-12">						
-					<h2><span>Mohd Danish Yusuf</span></h2>
-					<div class="links">
-						<ul>
-							<li><a href="https://github.com/mddanishyusuf" target="_blank"><i class="fa fa-github"> github</i></a></li>
-							<li><a href="https://www.facebook.com/facebkpuzz/" target="_blank"><i class="fa fa-facebook-official"></i> facebook</a></li>
-							<li><a href="https://www.linkedin.com/in/mddanishyusuf/" target="_blank"><i class="fa fa-linkedin-square"></i> linkedin</a></li>
-							<li><a href="https://iamnewbie.com/" target="_blank"><i class="fa fa-rss"></i> blog</a></li>
-							<li><a href="mailto:mddanishyusuf@gmail.com"><i class="fa fa-envelope"></i> mail</a></li>
-						</ul>
+				<div class="header">
+					<div class="header-left text-center">
+						<img src="/lib/img/orignal-pic.jpg">
 					</div>
+					<div class="header-right">
+					<h2>Mohd Danish Yusuf <small>Front-end Developer</small></h2>
+						<div class="links">
+								<ul>
+									<li><a href="https://github.com/mddanishyusuf" target="_blank"><i class="fa fa-github"></i> github</a></li>
+									<li><a href="https://www.linkedin.com/in/mddanishyusuf/" target="_blank"><i class="fa fa-linkedin-square"></i> linkedin</a></li>
+									<li><a href="https://iamnewbie.com/" target="_blank"><i class="fa fa-rss"></i> blog</a></li>
+									<li><a href="" target="_blank"><i class="fa fa-file-text"></i> Resume</a></li>
+									<li><a href="mailto:mddanishyusuf@gmail.com"><i class="fa fa-envelope"></i> mail</a></li>
+								</ul>
+						</div>
 					</div>
-					<div class="col-md-12 col-xs-12">						
-					<p>Hey, I'm Mohd Danish. I'm a Front-end developer from India. I am a fan of JavaScript Frameworks AngularJS, React, d3, Vue, Backbonejs, threejs. I'm also interested to explore APIs of top website as github, facebook, twitter, google and build something new with these APIs. <a href="http://githubsearch.com/">githubsearch.com</a> ( Github APIs + AngularJS ), <a href="https://www.fbpuzz.com/">fbpuzz.com</a> ( Facebook Graph APIs + Codeigniter + AngularJS ). Nowadays I am getting started with hapi.js ( Node framework ) to design REST APIs.</p>
-					<p></p>
-					</div>
-					<div class="col-md-12 col-xs-12">
-					<hr>
-					<button class="ibutton" type="submit" ui-sref="workExperience">Work Experience</button>
-					<button class="ibutton" type="submit" ui-sref="openSourceProject">Open Source Projects</button>
-					<button class="ibutton" type="submit" ui-sref="education">Education</button>
-					<button class="ibutton" type="submit" ui-sref="achievements">Achievements</button>
-					<button class="ibutton" type="submit" ui-sref="interests">Interests</button>
-					</div>
-					{{data}}
-				</div>
-				</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	</div>
+	<div class="container-fluid">
+		<div class="container body-content">
+			<p>Hey, I'm Mohd Danish Yusuf. I'm a Front-end developer from India. I am a fan of JavaScript Frameworks AngularJS, React, d3, Vue, Backbonejs, threejs. I'm also interested to explore APIs of top website as github, facebook, twitter, google and build something new with these APIs. <a href="http://githubsearch.com/">githubsearch.com</a> ( Github APIs + AngularJS ), <a href="https://www.fbpuzz.com/">fbpuzz.com</a> ( Facebook Graph APIs + Codeigniter + AngularJS ). Nowadays I am getting started with hapi.js ( Node framework ) to design REST APIs.</p>
+			<hr>
+			<button class="ibutton" type="submit" ui-sref="workExperience"><i class="fa fa-briefcase"></i> Work Experience</button>
+			<button class="ibutton" type="submit" ui-sref="openSourceProject"><i class="fa fa-github-alt"></i> Open Source Projects</button>
+			<button class="ibutton" type="submit" ui-sref="education"><i class="fa fa-graduation-cap"></i> Education</button>
+			<button class="ibutton" type="submit" ui-sref="skills"><i class="fa fa-wrench"></i> Skills</button>
+			<button class="ibutton" type="submit" ui-sref="achievements"><i class="fa fa-trophy"></i> Achievements</button>
+			<button class="ibutton" type="submit" ui-sref="interests"><i class="fa fa-heart"></i> Interests</button>
+			<hr>
+			<h1>Archives</h1>
+			<hr>
+			<div class="row archives">
+				<div class="col-md-12" ng-repeat="archive in archives">
+					<h2><a href="{{archive.link}}" target="_blank">#{{$index+1}} {{archive.title}}</a></h2>
+				</div>
+			</div>
+	<hr>
+	<div class="row">
+		<div class="col-md-12">
+			<ul class="technology-used">
+				<li class="Love and Dedication"><em class="fa fa-heart"></em></li>
+				<li title="Bootstrap"><em class="icon-bootstrap"></em>  &</li>
+				<li title="Angular"><em class="icon-angular"></em></li>
+				<li>@mddanishyusuf - made with</li>
+			</ul>
+		</div>
+	</div>
+		</div>
+	</div>
 	<div class="second-layer" id="layer">
-	<button class="minimizeButton" type="submit" ng-click="minimizeThis()">-</button>
+	<center><button class="minimizeButton" type="submit" ng-click="minimizeThis()" title="minimize"><i class="fa fa-close"></i></button></center>
 		<ui-view></ui-view>
 	</div>
 
@@ -59,7 +75,7 @@
 	<script src="/bower_components/angular/angular.js"></script>
 	<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="/lib/js/application-routes.js"></script>
-	<script src="/lib/js/appfunction.js"></script>
+	<script src="/lib/js/routes.js"></script>
+	<script src="/lib/js/function.js"></script>
 </body>
 </html>

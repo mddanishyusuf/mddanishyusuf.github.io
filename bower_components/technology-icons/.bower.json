@@ -1,0 +1,54 @@
+{
+  "name": "technology-icons",
+  "description": "Lot of Technology icons in a webfont.",
+  "main": [
+    "app/fonts/technology-icons.*",
+    "app/styles/technology-icons.css"
+  ],
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "modernizr": "~2.8.2",
+    "angular": "~1.2.26",
+    "prismjs": "*",
+    "angular-animate": "~1.2.25"
+  },
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "icons",
+    "webfonts",
+    "techicons",
+    "technologyicons"
+  ],
+  "authors": [
+    "Siddhartha Gudipati <me@websiddu.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "fonts",
+    "styles",
+    "app",
+    "!dist/styles/technology-icons.css",
+    "!dist/fonts/*.*",
+    "dist/styles/main.css",
+    "dist/scripts",
+    "tests"
+  ],
+  "homepage": "https://github.com/websiddu/technology-icons",
+  "_release": "7686650c09",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7686650c090f66f5924ceeb782af453f2b5c7d67"
+  },
+  "_source": "https://github.com/websiddu/technology-icons.git",
+  "_target": "*",
+  "_originalSource": "technology-icons",
+  "_direct": true
+}

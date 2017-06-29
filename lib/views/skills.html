@@ -1,0 +1,12 @@
+<div class="container skills">
+<div class="row">
+	<div class="col-md-4" ng-repeat="(key,value) in skills">
+	<h3 ng-style="{'background-color': value.color}">{{key}}</h3>
+	<ul>
+		<li ng-repeat="s in value.data">
+			{{s.skill}} 
+		</li>
+	</ul>
+	</div>
+</div>
+</div>

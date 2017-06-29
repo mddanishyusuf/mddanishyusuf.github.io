@@ -1,0 +1,30 @@
+[
+	{
+		"id":1,
+		"name":"Master of Computer Application",
+		"from_where":"Aligarh Muslim University",
+		"from":"Jul'2014",
+		"to":"Jun'2017"
+	},
+	{
+		"id":2,
+		"name":"B.Sc.(Hons.) Computer Application",
+		"from_where":"Aligarh Muslim University",
+		"from":"Jul'2011",
+		"to":"Jun'2014"
+	},
+	{
+		"id":3,
+		"name":"Intermediate",
+		"from_where":"LDAV Inter college, Anupshahar",
+		"from":"Jul'2008",
+		"to":"Apr'2009"
+	},
+	{
+		"id":4,
+		"name":"High School",
+		"from_where":"LDAV Inter college, Anupshahar",
+		"from":"Jul'2007",
+		"to":"Apr'2008"
+	}
+]

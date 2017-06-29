@@ -1,0 +1,122 @@
+{
+		"PROGRAMMING" : {
+			"data":[
+				{
+					"id":1,
+					"skill":"JavaScript"
+				},
+				{
+					"id":2,
+					"skill":"HTML & CSS"
+				},
+				{
+					"id":3,
+					"skill":"Angular 1.6"
+				},
+				{
+					"id":4,
+					"skill":"React.js"
+				},
+				{
+					"id":5,
+					"skill":"D3.js"
+				},
+				{
+					"id":6,
+					"skill":"Vue.js"
+				},
+				{
+					"id":7,
+					"skill":"Backbone.js"
+				},
+				{
+					"id":8,
+					"skill":"Three.js"
+				},
+				{
+					"id":9,
+					"skill":"NodeJS"
+				},
+				{
+					"id":10,
+					"skill":"Flask"
+				},
+				{
+					"id":11,
+					"skill":"Hapi.js"
+				}
+			],
+		"color":"#2C3E50"
+		},
+		"DESIGN" : {
+			"data":[
+				{
+				"id":12,
+				"skill":"Design with Google Material"
+				},
+				{
+					"id":13,
+					"skill":"UI Design"
+				},
+				{
+					"id":14,
+					"skill":"Rapid Wireframing"
+				},
+				{
+					"id":15,
+					"skill":"Responsive Web Design"
+				},
+				{
+					"id":16,
+					"skill":"Rapid Prototyping"
+				}
+			],
+			"color":"#EC644B"
+		},
+		"TOOLS" : {
+			"data":[
+				{
+					"id":17,
+					"skill":"Source Control"
+				},
+				{
+					"id":18,
+					"skill":"Axure RP"
+				},
+				{
+					"id":19,
+					"skill":"Docker & Docker Composer"
+				},
+				{
+					"id":20,
+					"skill":"NPM"
+				},
+				{
+					"id":21,
+					"skill":"Bower"
+				},
+				{
+					"id":22,
+					"skill":"Nuget"
+				},
+				{
+					"id":23,
+					"skill":"Redash"
+				}
+			],
+			"color":"#F89406"
+		},
+		"CMS" : {
+			"data":[
+			{
+				"id":24,
+				"skill":"WordPress"
+			},
+			{
+				"id":25,
+				"skill":"Magento"
+			}
+		],
+			"color":"#1F3A93"
+		}
+	}
