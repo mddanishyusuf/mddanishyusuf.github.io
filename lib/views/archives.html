@@ -1,0 +1,14 @@
+<div class="container">
+	<h2>Archives <small><a href="https://iamnewbie.com" target="_blank">View all archives</a></small></h2>
+<hr>
+<div class="row archives" ng-repeat="archive in archives">
+	<div class="col-md-6">
+		<a ng-href="{{archive.link}}" target="_blank"><img src="{{archive.featured_image.source}}"></a>
+	</div>
+	<div class="col-md-6">
+		<h2><a href="{{archive.link}}" target="_blank">{{archive.title}}</a></h2>
+		<span ng-bind-html="archive.excerpt"></span>
+		<a ng-href="{{archive.link}}" target="_blank">Full Story</a>
+	</div>
+</div>
+</div>

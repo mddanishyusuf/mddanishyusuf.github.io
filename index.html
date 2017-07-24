@@ -3,6 +3,17 @@
 <head>
 	<title>Mohd Danish Yusuf | Front-end Developer</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name='keywords' content='mddanishyusuf, Front-end Developer, Portfolio, Web Resume, Work Experience, Projects, Owner'>
+	<meta name='description' content='A personal website to show Work-Experience, Projects, Skills and etc'>
+	<meta name='subject' content='Personal Website'>
+	<meta name='language' content='ES'>
+	<meta name='robots' content='index,follow'>
+	<meta name='author' content='Mohd Danish Yusuf, mddanishyusuf@gmail.com'>
+	<meta name='developer' content='Mohd Danish Yusuf'>
+	<meta name='reply-to' content='mddanishyusuf@gmail.com'>
+	<meta name='owner' content='Mohd Danish Yusuf'>
+	<meta name='url' content='http://mddanishyusuf.github.io'>
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/lib/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -14,11 +25,11 @@
 		<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="header">
-					<div class="header-left text-center">
+				<div class="row header">
+					<div class="col-md-2 col-sm-3 text-center header-left text-center">
 						<img src="/lib/img/orignal-pic.jpg">
 					</div>
-					<div class="header-right">
+					<div class="col-md-10 col-sm-9 header-right">
 					<h2>Mohd Danish Yusuf <small>Front-end Developer</small></h2>
 						<div class="links">
 								<ul>
@@ -37,22 +48,14 @@
 	</div>
 	<div class="container-fluid">
 		<div class="container body-content">
-			<p>Hey, I'm Mohd Danish Yusuf. I'm a Front-end developer from India. I am a fan of JavaScript Frameworks AngularJS, React, d3, Vue, Backbonejs, threejs. I'm also interested to explore APIs of top website as github, facebook, twitter, google and build something new with these APIs. <a href="http://githubsearch.com/">githubsearch.com</a> ( Github APIs + AngularJS ), <a href="https://www.fbpuzz.com/">fbpuzz.com</a> ( Facebook Graph APIs + Codeigniter + AngularJS ). Nowadays I am getting started with hapi.js ( Node framework ) to design REST APIs.</p>
+			<p>Hey, I'm Mohd Danish Yusuf. I'm a Front-end developer from India. I also do Freelance Work as a part time. I am a fan of JavaScript Frameworks AngularJS, React, d3, Vue, Backbonejs, threejs. I'm also interested to explore APIs of top website as GitHub, Facebook, twitter, Google and build something new with these APIs. <a href="http://githubsearch.com/">githubsearch.com</a> ( Github APIs + AngularJS ), <a href="https://www.fbpuzz.com/">fbpuzz.com</a> ( Facebook Graph APIs + Codeigniter + AngularJS ). Nowadays I am getting started with hapi.js ( Node framework ) to design REST APIs.</p>
 			<hr>
 			<button class="ibutton" type="submit" ui-sref="workExperience"><i class="fa fa-briefcase"></i> Work Experience</button>
 			<button class="ibutton" type="submit" ui-sref="openSourceProject"><i class="fa fa-github-alt"></i> Open Source Projects</button>
 			<button class="ibutton" type="submit" ui-sref="education"><i class="fa fa-graduation-cap"></i> Education</button>
 			<button class="ibutton" type="submit" ui-sref="skills"><i class="fa fa-wrench"></i> Skills</button>
-			<button class="ibutton" type="submit" ui-sref="achievements"><i class="fa fa-trophy"></i> Achievements</button>
+			<button class="ibutton" type="submit" ui-sref="archives"><i class="fa fa-trophy"></i> Archives</button>
 			<button class="ibutton" type="submit" ui-sref="interests"><i class="fa fa-heart"></i> Interests</button>
-			<hr>
-			<h1>Archives</h1>
-			<hr>
-			<div class="row archives">
-				<div class="col-md-12" ng-repeat="archive in archives">
-					<h2><a href="{{archive.link}}" target="_blank">#{{$index+1}} {{archive.title}}</a></h2>
-				</div>
-			</div>
 	<hr>
 	<div class="row">
 		<div class="col-md-12">
@@ -73,7 +76,8 @@
 	</div>
 
 	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
 	<script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/lib/js/routes.js"></script>

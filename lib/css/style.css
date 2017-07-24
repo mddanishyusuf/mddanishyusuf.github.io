@@ -8,7 +8,7 @@ body{
 .header-right h2{
 	padding: 0px;
     margin: 0px 0px 10px 0px;
-    line-height: 47px;
+    line-height: 25px;
     font-size: 40px;
     color: #fff;
 }
@@ -30,7 +30,7 @@ body{
     list-style-type: none;
 }
 .links ul li{
-	float:left;
+    display: inline-block;
 	padding: 0px 10px 0px 0px;
 }
 .links ul li a{
@@ -109,17 +109,17 @@ body{
 	padding: 40px;
 }
 .header-right{
-	padding-top: 50px
+	display: inline-block;
 }
 .header-left{
 	float: left;
 }
 .header-left img{
 	border-radius: 50%;
-	width: 60%
+	width: 80%
 }
 .body-content{
-	padding: 40px
+	padding-top: 40px
 }
 .working-experience span{
 	font-size: 16px;
@@ -127,9 +127,19 @@ body{
 .working-experience p{
 	font-size: 16px;
 }
+.archives{
+    padding: 20px 0px;
+}
 .archives h2 a{
 	color: #6d6969;
+	font-size: 40px;
 	text-decoration: none;
+}
+.archives img{
+	width: 100%
+}
+.archives p{
+	font-size: 18px;
 }
 .skills h3{
 	color: #fff;
@@ -140,7 +150,14 @@ body{
 }
 
 
-
+@media only screen and (min-width: 500px){
+	.header-right h2{
+		padding-top:30px;
+	}
+	.header-right h2{
+		/*font-size: 35px;*/
+	}
+}
 @media only screen and (max-width: 500px) {
 	.card-content h2{
 	    font-size: 20px;
@@ -148,5 +165,14 @@ body{
 	}
 	.main-box{
 		margin-top: 20px;
+	}
+	.header-left img{
+		width: 50%
+	}
+	.header-right h2{
+		font-size: 25px;
+		margin-top: 10px;
+		line-height: 20px;
+		text-align: center;
 	}
 }
