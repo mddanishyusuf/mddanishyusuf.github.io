@@ -2,13 +2,21 @@
 	{
 		"id":1,
 		"title":"Front-end Developer",
+		"where":"InstaOffice (www.instaoffice.in)",
+		"from":"Aug'2017",
+		"to":"Present",
+		"description":""
+	},
+	{
+		"id":2,
+		"title":"Front-end Developer",
 		"where":"Anant Corporation",
 		"from":"May'2017",
 		"to":"Present",
 		"description":""
 	},
 	{
-		"id":1,
+		"id":3,
 		"title":"Internet Architecture Internship",
 		"where":"Anant Corporation",
 		"from":"Feb'2017",
@@ -16,7 +24,7 @@
 		"description":""
 	},
 	{
-		"id":1,
+		"id":4,
 		"title":"Founder and Developer",
 		"where":"fbpuzz.com",
 		"from":"Jan'2016",
@@ -24,7 +32,7 @@
 		"description":"fbpuzz is online web application of entertainment videos collections"
 	},
 	{
-		"id":2,
+		"id":5,
 		"title":"Founder and Developer",
 		"where":"githubsearch.com",
 		"from":"Mar'2011",
@@ -32,7 +40,7 @@
 		"description":"githubsearch.com is a native design to get github public repository with github api"
 	},
 	{
-		"id":3,
+		"id":6,
 		"title":"Internship",
 		"where":"thestorypedia.com",
 		"from":"Nov'2016",
@@ -40,7 +48,7 @@
 		"description":"internship @ thestorypedia.com as full stack developer for their sentimental analysis project"
 	},
 	{
-		"id":4,
+		"id":7,
 		"title":"Internship",
 		"where":"cityexploro.com",
 		"from":"Jan'2016",
@@ -48,7 +56,7 @@
 		"description":"Cityexploro explore your city or listed out schools, coaching, hospitals, tutors etc."
 	},
 	{
-		"id":5,
+		"id":8,
 		"title":"Founder and Developer",
 		"where":"iamnewbie.com",
 		"from":"Jul'2015",
@@ -56,7 +64,7 @@
 		"description":"iamnewbie is a personal blog about Front-end tutorials and technologies."
 	},
 	{
-		"id":6,
+		"id":9,
 		"title":"Lead Front-end Developer",
 		"where":"camplinked.com",
 		"from":"Aug'2013",
