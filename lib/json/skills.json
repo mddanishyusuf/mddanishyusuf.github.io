@@ -10,6 +10,39 @@
 					"skill":"HTML & CSS"
 				},
 				{
+					"id":9,
+					"skill":"NodeJS"
+				},
+				{
+					"id":12,
+					"skill": "Python"
+				},
+				{
+					"id":13,
+					"skill": "SASS"
+				},
+				{
+					"id":17,
+					"skill": "PHP"
+				},
+				{
+					"id":17,
+					"skill": "Ruby"
+				}
+			],
+		"color":"#2C3E50"
+		},
+		"FRAMEWORKS & LIBRARIES" : {
+			"data": [
+				{
+					"id":10,
+					"skill":"Flask"
+				},
+				{
+					"id":11,
+					"skill":"Hapi.js"
+				},
+				{
 					"id":3,
 					"skill":"Angular 1.6"
 				},
@@ -34,19 +67,11 @@
 					"skill":"Three.js"
 				},
 				{
-					"id":9,
-					"skill":"NodeJS"
-				},
-				{
-					"id":10,
-					"skill":"Flask"
-				},
-				{
-					"id":11,
-					"skill":"Hapi.js"
+					"id":13,
+					"skill":"Handlebars"
 				}
 			],
-		"color":"#2C3E50"
+			"color": "#663399"
 		},
 		"DESIGN" : {
 			"data":[
