@@ -127,6 +127,10 @@ body{
 .working-experience p{
 	font-size: 16px;
 }
+.working-experience h1 {
+	margin: 0;
+	padding: 0;
+}
 .archives{
     padding: 20px 0px;
 }

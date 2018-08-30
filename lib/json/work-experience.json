@@ -1,67 +1,82 @@
 [
 	{
 		"id":1,
-		"title":"Front-end Developer",
-		"where":"InstaOffice (www.instaoffice.in)",
-		"from":"Aug'2017",
+		"title":"Full Stack Developer",
+		"where":"loopreality.com",
+		"from":"June'2017",
 		"to":"Present",
-		"description":""
-	},
-	{
+		"description": [
+			"VR game assessment Application dashboard for HR and Admin to visualize company data, data into graph view, assign the tasks, player management, Scheduling. I'm using Angular 6, Bootstrap and SASS."
+		]
+	},{
 		"id":2,
-		"title":"Front-end Developer",
+		"title":"Front-end Developer / Contractor",
 		"where":"Anant Corporation",
 		"from":"May'2017",
 		"to":"Present",
-		"description":""
+		"description": [
+			"Working on their R&D projects and client projects (<a href='http://leaves.anant.us/' target='_blank'> leaves.anant.us </a>)", "Using NEXT.js, AngularJS, react-native, Redux, Firebase etc."
+		]
 	},
 	{
 		"id":3,
-		"title":"Internet Architecture Internship",
-		"where":"Anant Corporation",
-		"from":"Feb'2017",
-		"to":"Apr'2017",
-		"description":""
+		"title":"Front-end Developer",
+		"where":"InstaOffice (www.instaoffice.in)",
+		"from":"Aug'2017",
+		"to":"May'2018",
+		"description": [
+			"Design and build from scratch the website (<a href='https://www.instaoffice.in/' target='_blank'> instaoffice.in </a>) and worked on client onboarding dashboard.", "Used CRA for UI and Firebase to maintain the data."
+		]
 	},
 	{
 		"id":4,
-		"title":"Founder and Developer",
-		"where":"fbpuzz.com",
-		"from":"Jan'2016",
-		"to":"Present",
-		"description":"fbpuzz is online web application of entertainment videos collections"
+		"title":"Internet Architecture Internship",
+		"where":"Anant Corporation",
+		"from":"Jan'2017",
+		"to":"Apr'2017",
+		"description": [
+			"Four months internship in JavaScript framework(AngularJS) and some Node projects."
+		]
 	},
 	{
 		"id":5,
 		"title":"Founder and Developer",
-		"where":"githubsearch.com",
-		"from":"Mar'2011",
-		"to":"Present",
-		"description":"githubsearch.com is a native design to get github public repository with github api"
+		"where":"fbpuzz.com",
+		"from":"Jan'2016",
+		"to":"Mar'2017",
+		"description": [
+			"fbpuzz <strike>is</strike> was online web application of entertainment videos collections", "we fetch videos from 300+ selected Facebook pages and sync every one hours"
+		]
 	},
 	{
 		"id":6,
-		"title":"Internship",
-		"where":"thestorypedia.com",
-		"from":"Nov'2016",
-		"to":"Feb'2017",
-		"description":"internship @ thestorypedia.com as full stack developer for their sentimental analysis project"
+		"title":"Founder and Developer",
+		"where":"githubsearch.com",
+		"from":"Mar'2011",
+		"to":"Present",
+		"description": [
+			"<a href='https://mohddanish.me/githubsearch/' target='_blank'>githubsearch</a> is a native design to explore GitHub public repository accordingly to language", "listed all trending and latest repository", "I'm using GitHub no authenticated API"
+		]
 	},
 	{
 		"id":7,
 		"title":"Internship",
-		"where":"cityexploro.com",
-		"from":"Jan'2016",
-		"to":"Jul'2016",
-		"description":"Cityexploro explore your city or listed out schools, coaching, hospitals, tutors etc."
+		"where":"thestorypedia.com",
+		"from":"Nov'2016",
+		"to":"Feb'2017",
+		"description": [
+			"Internship @ thestorypedia.com as full stack developer for their sentimental analysis project"
+		]
 	},
 	{
 		"id":8,
-		"title":"Founder and Developer",
-		"where":"iamnewbie.com",
-		"from":"Jul'2015",
-		"to":"Present",
-		"description":"iamnewbie is a personal blog about Front-end tutorials and technologies."
+		"title":"Internship",
+		"where":"cityexploro.com",
+		"from":"Jan'2016",
+		"to":"Jul'2016",
+		"description": [
+			"Cityexploro explore your city and listed out schools, coaching, hospitals, tutors etc. through web application that build on AngularJs and Bootstrap 3 stack."
+		]
 	},
 	{
 		"id":9,
@@ -69,6 +84,8 @@
 		"where":"camplinked.com",
 		"from":"Aug'2013",
 		"to":"Jun'2015",
-		"description":"Responsible for designing and building UI"
+		"description": [
+			"Responsible for designing and building UI"
+		]
 	}
 ]

@@ -3,7 +3,12 @@
 	<div class="col-md-12" ng-repeat="work in working_experience">
 		<h1>{{work.title}} <small>{{work.where}}</small></h1>
 		<span>{{work.from}} - {{work.to}}</span>
-		<p>{{work.description}}</p>
+		<br>
+		<br>
+		<ul>
+			<li ng-repeat="d in work.description"><p ng-bind-html="d"></p></li>
+		</ul>
+		
 		<hr>
 	</div>
 </div>

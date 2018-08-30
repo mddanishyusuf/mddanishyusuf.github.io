@@ -36,11 +36,15 @@
 			"data": [
 				{
 					"id":10,
-					"skill":"Flask"
+					"skill":"Next.js"
 				},
 				{
 					"id":11,
 					"skill":"Hapi.js"
+				},
+				{
+					"id":13,
+					"skill":"Angular 6"
 				},
 				{
 					"id":3,
@@ -52,15 +56,15 @@
 				},
 				{
 					"id":5,
-					"skill":"D3.js"
+					"skill":"Redux"
+				},
+				{
+					"id":5,
+					"skill":"react-native"
 				},
 				{
 					"id":6,
-					"skill":"Vue.js"
-				},
-				{
-					"id":7,
-					"skill":"Backbone.js"
+					"skill":"PhantomJs"
 				},
 				{
 					"id":8,
@@ -94,12 +98,28 @@
 				{
 					"id":16,
 					"skill":"Rapid Prototyping"
+				},
+				{
+					"id":16,
+					"skill":"Adobe XD"
 				}
 			],
 			"color":"#EC644B"
 		},
-		"TOOLS" : {
+		"TOOLS & AUTOMATION" : {
 			"data":[
+				{
+					"id":17,
+					"skill":"PhantomJs"
+				},
+				{
+					"id":17,
+					"skill":"Webpack"
+				},
+				{
+					"id":17,
+					"skill":"Zapier"
+				},
 				{
 					"id":17,
 					"skill":"Source Control"

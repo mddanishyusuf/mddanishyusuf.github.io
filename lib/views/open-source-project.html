@@ -1,4 +1,5 @@
-<div class="container">
+<div ng-if="!showOpenSource">loading...</div>
+<div class="container" ng-if="showOpenSource">
 <div class="row">
 	<div class="col-md-12" ng-repeat="osp in project_list">
 		<h1>{{osp.name}}</h1>
