@@ -1,21 +1,21 @@
 [
 	{
 		"id":1,
-		"title":"Full Stack Developer",
-		"where":"loopreality.com",
-		"from":"June'2017",
-		"to":"Present",
-		"description": [
-			"VR game assessment Application dashboard for HR and Admin to visualize company data, data into graph view, assign the tasks, player management, Scheduling. I'm using Angular 6, Bootstrap and SASS."
-		]
-	},{
-		"id":2,
-		"title":"Front-end Developer / Contractor",
+		"title":"Front-end Developer",
 		"where":"Anant Corporation",
 		"from":"May'2017",
 		"to":"Present",
 		"description": [
-			"Working on their R&D projects and client projects (<a href='http://leaves.anant.us/' target='_blank'> leaves.anant.us </a>)", "Using NEXT.js, AngularJS, react-native, Redux, Firebase etc."
+			"Working on their R&D projects and client projects (<a href='http://leaves.anant.us/' target='_blank'> leaves.anant.us </a>)", "Tech Stack: React.js, NEXT.js, AngularJS, react-native, Redux, Firebase, GatsbyJs, GraphQL, NodeJS, Python"
+		]
+	},{
+		"id":2,
+		"title":"Full Stack Developer",
+		"where":"loopreality.com",
+		"from":"June'2018",
+		"to":"Sep'2018",
+		"description": [
+			"VR game assessment Application dashboard for HR and Admin to visualize the player Data in Graph view","Tech Stack: React.js, Bootstrap, Chart.js, Angular 6"
 		]
 	},
 	{
@@ -25,7 +25,7 @@
 		"from":"Aug'2017",
 		"to":"May'2018",
 		"description": [
-			"Design and build from scratch the website (<a href='https://www.instaoffice.in/' target='_blank'> instaoffice.in </a>) and worked on client onboarding dashboard.", "Used CRA for UI and Firebase to maintain the data."
+			"Design and build official webiste from scratch (<a href='https://www.instaoffice.in/' target='_blank'> instaoffice.in </a>) and build an internal tool with React.js","Tech Stack: Handalbars, SASS, Grunt, React.js"
 		]
 	},
 	{
@@ -39,18 +39,8 @@
 		]
 	},
 	{
-		"id":5,
-		"title":"Founder and Developer",
-		"where":"fbpuzz.com",
-		"from":"Jan'2016",
-		"to":"Mar'2017",
-		"description": [
-			"fbpuzz <strike>is</strike> was online web application of entertainment videos collections", "we fetch videos from 300+ selected Facebook pages and sync every one hours"
-		]
-	},
-	{
 		"id":6,
-		"title":"Founder and Developer",
+		"title":"Creator",
 		"where":"githubsearch.com",
 		"from":"Mar'2011",
 		"to":"Present",
@@ -75,7 +65,7 @@
 		"from":"Jan'2016",
 		"to":"Jul'2016",
 		"description": [
-			"Cityexploro explore your city and listed out schools, coaching, hospitals, tutors etc. through web application that build on AngularJs and Bootstrap 3 stack."
+			"Build and application to explore the city for schools, doctors, blood bank etc","Tech Stack: Angular 1.6, Bootstrap & React.js"
 		]
 	},
 	{
@@ -85,7 +75,7 @@
 		"from":"Aug'2013",
 		"to":"Jun'2015",
 		"description": [
-			"Responsible for designing and building UI"
+			"Build a platform for students and company to connect. It was University Project.", "Tech Stack: HTML, CSS, Bootstrap"
 		]
 	}
 ]
