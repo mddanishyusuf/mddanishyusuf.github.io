@@ -35,6 +35,14 @@
 		"FRAMEWORKS & LIBRARIES" : {
 			"data": [
 				{
+					"id":4,
+					"skill":"React.js"
+				},
+				{
+					"id":13,
+					"skill":"GatsbyJs"
+				},
+				{
 					"id":10,
 					"skill":"Next.js"
 				},
@@ -49,10 +57,6 @@
 				{
 					"id":3,
 					"skill":"Angular 1.6"
-				},
-				{
-					"id":4,
-					"skill":"React.js"
 				},
 				{
 					"id":5,
@@ -123,6 +127,10 @@
 				{
 					"id":17,
 					"skill":"Source Control"
+				},
+				{
+					"id":18,
+					"skill":"Netlify"
 				},
 				{
 					"id":18,
